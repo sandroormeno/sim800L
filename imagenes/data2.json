@@ -1,0 +1,11783 @@
+var data =[
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 211.3375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0.9167,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 151.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "female",
+    "age": 2,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 151.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 151.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "female",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 151.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 48,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 63,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 77.9583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 53,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 51.4792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 71,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 49.5042
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 227.525
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 227.525
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 69.3
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 78.85
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 80,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 25.925
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 247.5208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 247.5208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 76.2917
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 75.2417
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 37,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 52.5542
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 47,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 52.5542
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 227.525
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 221.7792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 91.0792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 91.0792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 135.6333
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 35.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 31
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 164.8667
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 58,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 262.375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 48,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 50.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 39.6
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 44,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 59,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 51.4792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 60,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 76.2917
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 134.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 31
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.2875
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 53,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.4458
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 512.3292
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 58,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 512.3292
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 47.1
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 47.1
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 11,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 120
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 14,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 120
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 120
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 120
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 49,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 78.85
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 76,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 78.85
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 46,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 61.175
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 47,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 61.175
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 53.1
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 53.1
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 262.375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 86.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 29.7
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 136.7792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 136.7792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 151.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 52
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 25.5875
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 83.1583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 37,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 83.1583
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 64,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 83.1583
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 55,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 25.7
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 70,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 71
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 71
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 64,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 71.2833
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 38,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 71.2833
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 51,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 151.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 52
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 52
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 57
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 57
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 53,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 81.8583
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 4,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 81.8583
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 54,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 81.8583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 106.425
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 247.5208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 106.425
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 39.6
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 49,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 56.9292
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 29.7
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 83.1583
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 227.525
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 54,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 78.2667
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 31.6792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 221.7792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 31.6833
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 110.8833
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.3875
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.75
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 263
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 263
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 263
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 263
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 64,
+    "sibsp": 1,
+    "parch": 4,
+    "fare": 263
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 60,
+    "sibsp": 1,
+    "parch": 4,
+    "fare": 263
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.9292
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 133.65
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 43,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 133.65
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 49.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 60,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 79.2
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 79.2
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 37,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 53.1
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 53.1
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 38.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 211.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 59.4
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 59.4
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 79.2
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 49,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 89.1042
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 89.1042
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 71,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 34.6542
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 53,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 28.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 153.4625
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 58,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 153.4625
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 63.3583
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 63.3583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 46,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 79.2
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 55.4417
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 55.4417
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 76.7292
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 49,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 76.7292
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 42.4
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 83.475
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 83.475
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 76.7292
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 83.1583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 55,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 93.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 52,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 93.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 42.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 51.8625
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 55,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 50
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 57.9792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 44,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 57.9792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 51,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 77.9583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 52
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 52
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 38,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 90
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.6958
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 90
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 80
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "female",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 28.7125
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 49,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 46,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 32.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 211.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 58,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 29.7
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 41,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 51.8625
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 51.8625
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 52.5542
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 52.5542
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 211.3375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 49,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 25.9292
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 106.425
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 512.3292
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 55,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 39.4
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 51,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 39.4
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 77.9583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 45.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 58,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 146.5208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 15,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 211.3375
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 86.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 29.7
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 53.1
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 53.1
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 49.5042
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 46,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 75.2417
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 54,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 51.8625
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.2875
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 82.1708
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 82.1708
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 65,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 44,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 90
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 90
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 37,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 90
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 57.75
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 55,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 42.4
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 37,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 29.7
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 113.275
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 113.275
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 58,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 113.275
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 26.2833
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 64,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 108.9
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 25.7417
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 61.9792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 65,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 61.9792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 28.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 45.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 28.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 93.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 66.6
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 66.6
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 108.9
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 108.9
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 93.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 52,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 52
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 56,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 83.1583
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 39.6
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 135.6333
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 227.525
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 43,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 211.3375
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 50.4958
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 50
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 46,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 79.2
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 40.125
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 86.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 55,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 59.4
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 54,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 59.4
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 13,
+    "sibsp": 2,
+    "parch": 2,
+    "fare": 262.375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 2,
+    "parch": 2,
+    "fare": 262.375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 2,
+    "parch": 2,
+    "fare": 262.375
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 61,
+    "sibsp": 1,
+    "parch": 3,
+    "fare": 262.375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 3,
+    "fare": 262.375
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 69.3
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 57.75
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 31
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 153.4625
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.2875
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 55.9
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 55.9
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 56,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 35.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 35.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 56,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 56,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.6958
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 60
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 60
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 82.2667
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 82.2667
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 6,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 134.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 134.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 134.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 57,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 146.5208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 146.5208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 30.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 62,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 54,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 55.4417
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 43,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 55.4417
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 52,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 78.2667
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 62,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 80
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 67,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 221.7792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "female",
+    "age": 63,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 221.7792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 61,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 32.3208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 25.9292
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 79.65
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 52,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 79.65
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 79.65
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 52
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 52
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 49,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 110.8833
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 110.8833
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 110.8833
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 79.2
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 28.5375
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 61,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 33.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 34.0208
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 512.3292
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 64,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 75.25
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 60,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 75.25
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 60,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 54,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 77.2875
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 77.2875
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 55,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 135.6333
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 164.8667
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 57,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 164.8667
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 164.8667
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 211.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 211.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 50,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 211.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 51,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 61.3792
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 61.3792
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 35
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 134.5
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 35.5
+  },
+  {
+    "survived": 0,
+    "pclass": 1,
+    "sex": "male",
+    "age": 62,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26.55
+  },
+  {
+    "survived": 1,
+    "pclass": 1,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 135.6333
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 24
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 24
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 11.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 57,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 11.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 51,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.525
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 1,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 39
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 4,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 39
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 12,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 39
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 3,
+    "fare": 39
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 15,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 39
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 60,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 39
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 39
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 20,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0.8333,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 29
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 29
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 29
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 44,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 54,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 52,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 37,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 30
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 30
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 8,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 26.25
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26.25
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26.25
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 11.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 8,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 36.75
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 73.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 36.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 73.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 27.7208
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 31.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 73.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 23
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 23
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 54,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 8,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 32.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 32.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 34,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 32.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 13.8583
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 13.8583
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 38,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 11.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 11.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 52,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0.6667,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 14.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 44,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 6,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 33
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 33
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 62,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 7,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 26.25
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 43,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26.25
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26.25
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 65
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 65
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 49,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 65
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 65
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 55,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 16
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 73.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 73.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 73.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 20,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 23
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 11.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 54,
+    "sibsp": 1,
+    "parch": 3,
+    "fare": 23
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 44,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 73.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 63,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 60,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.275
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 27
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 27
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 31.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 31.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.7917
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.35
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.35
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 57,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.35
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.7083
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 1,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 41.5792
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 3,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 41.5792
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 41.5792
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 41.5792
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 33
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.875
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 61,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.35
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 42,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 57,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.0458
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 1,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 37.0042
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 37.0042
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 37.0042
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.5792
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 16
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 46,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 13,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 19.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 19.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 48,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 70,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 54,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 14
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 62,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 32.5,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 30.0708
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 14,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 30.0708
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 2,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 3,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 36.5,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 36.75
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.8625
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.8625
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.8583
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.05
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 21
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 43,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 21
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.7375
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.0333
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 2,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 8,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 26
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 3,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.0458
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0.8333,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 18.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 3,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 18.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 2,
+    "parch": 3,
+    "fare": 18.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 36.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 59,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.35
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.0458
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 18.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 14,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 65
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.65
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 21
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 12,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 32.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 26
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 2,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 23
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 4,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 23
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 23
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 0.9167,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 27.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 5,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 27.75
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 27.75
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 27.75
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 66,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.875
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 1,
+    "pclass": 2,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13.5
+  },
+  {
+    "survived": 0,
+    "pclass": 2,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 13
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 13,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 20.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 20.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 20.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.65
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.65
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 9.475
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0.8333,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 9.35
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 9.35
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 18.7875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.3
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 22.525
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 4,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.275
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 6,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.275
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 2,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.275
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 38,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 9,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.275
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 11,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.275
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 1,
+    "parch": 5,
+    "fare": 31.275
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 1,
+    "parch": 5,
+    "fare": 31.275
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 17.8
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 17.8
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 5,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.3875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 9,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.3875
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 3,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.3875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 13,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.3875
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 5,
+    "sibsp": 4,
+    "parch": 2,
+    "fare": 31.3875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 5,
+    "fare": 31.3875
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 38,
+    "sibsp": 1,
+    "parch": 5,
+    "fare": 31.3875
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 14.4583
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 13,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.85
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 3,
+    "parch": 0,
+    "fare": 15.85
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0.75,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 19.2583
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0.75,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 19.2583
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 5,
+    "sibsp": 2,
+    "parch": 1,
+    "fare": 19.2583
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 3,
+    "fare": 19.2583
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.35
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 4.0125
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 6,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.2458
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 9,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.2458
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 15.2458
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 32,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.725
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.0458
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2833
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8208
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4583
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4583
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 37,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7333
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7333
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.6292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 70.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 43,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 9,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.9
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 3,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.9
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 15.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 59,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.1583
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 44,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.5167
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 10.1708
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.95
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0.3333,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 14.4
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 14.4
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 14.4
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36.5,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 17.4
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 17.4
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 1,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 20.575
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0.1667,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 20.575
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 20.575
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 33,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 20.575
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 43,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.475
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 65,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 13.9
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 13.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.975
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 15,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 12.475
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.95
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 2,
+    "parch": 2,
+    "fare": 34.375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 9,
+    "sibsp": 2,
+    "parch": 2,
+    "fare": 34.375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 2,
+    "parch": 2,
+    "fare": 34.375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 1,
+    "parch": 3,
+    "fare": 34.375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 48,
+    "sibsp": 1,
+    "parch": 3,
+    "fare": 34.375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7417
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7333
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 9,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 20.525
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 20.525
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.85
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 20.525
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 9,
+    "sibsp": 5,
+    "parch": 2,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 1,
+    "sibsp": 5,
+    "parch": 2,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 11,
+    "sibsp": 5,
+    "parch": 2,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 10,
+    "sibsp": 5,
+    "parch": 2,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 5,
+    "parch": 2,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 14,
+    "sibsp": 5,
+    "parch": 2,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 6,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 43,
+    "sibsp": 1,
+    "parch": 6,
+    "fare": 46.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 51,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.3625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.8458
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 37,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.85
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7333
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 19.9667
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 19.9667
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.85
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.85
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 23.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 41,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 14.1083
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.1083
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.8583
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 11,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 18.7875
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.975
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.9625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 2,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 12.2875
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 12.2875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 43,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.45
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 22.525
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.65
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 48,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.0542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.1125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.4958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 4,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 11.1333
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 1,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 11.1333
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 49,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 11.1333
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 23.45
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 23.45
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 23.45
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 2,
+    "fare": 23.45
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 20,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 9.825
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 9.825
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.4333
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.5208
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 4,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 13.4167
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 13.4167
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 34.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 44,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 4,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 22.025
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 22.025
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 22.025
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 1,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 12.1833
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 12.1833
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 37,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.4833
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 25.4667
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 25.4667
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 25.4667
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 25.4667
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 4,
+    "fare": 25.4667
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 34.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.4375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.55
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 56.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 51,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.0542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.5792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.1417
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 30.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 23.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 23.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 23.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 15,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.0292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 55.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.65
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 6,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 12.475
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 12.475
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.4583
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.2458
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.2458
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 15.2458
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7333
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 15,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 1,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 15.7417
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.7417
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 19,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.7417
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 12,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 11.2417
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 14,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 11.2417
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.125
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 61,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.2375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8292
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 15.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7333
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8792
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8292
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 9,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 3.1708
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 22.525
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 42,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 8.4042
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.3125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.2167
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6833
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.6292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 2,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 21.075
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 6,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 21.075
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 3,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 21.075
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 8,
+    "sibsp": 3,
+    "parch": 1,
+    "fare": 21.075
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 4,
+    "fare": 21.075
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 1,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 39.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 7,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 39.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 2,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 39.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 39.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 14,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 39.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 5,
+    "fare": 39.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.7125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0.75,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 13.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 3,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 13.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 26,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 13.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 22.3583
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 22.3583
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 22.3583
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.1375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 17,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.1125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 10,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 29.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 4,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 29.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 7,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 29.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 2,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 29.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 8,
+    "sibsp": 4,
+    "parch": 1,
+    "fare": 29.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 5,
+    "fare": 29.125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 39.6875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 35,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.125
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7208
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 47,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 2,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 20.2125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 20.2125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 41,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 20.2125
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 50,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.575
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 38.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 14.5,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 8,
+    "parch": 2,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 9,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 9,
+    "fare": 69.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.325
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.65
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 39,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 21.6792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 21.6792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 21.6792
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 1,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 16.7
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 16.7
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 4,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 16.7
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.725
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 15.1
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7792
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 4,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 27.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 10,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 27.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 9,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 27.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 2,
+    "sibsp": 3,
+    "parch": 2,
+    "fare": 27.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40,
+    "sibsp": 1,
+    "parch": 4,
+    "fare": 27.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 45,
+    "sibsp": 1,
+    "parch": 4,
+    "fare": 27.9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7333
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.65
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 23,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 60.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 19,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.8375
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 2,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 10.4625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 10.4625
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 44,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 74,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.775
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 14,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 24,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.7958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 34,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0.4167,
+    "sibsp": 0,
+    "parch": 1,
+    "fare": 8.5167
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 6.4375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 6.4375
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 16,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 8.5167
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.925
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 30.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 44,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 25,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 7,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.2458
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 9,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 15.2458
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 15.2458
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.8417
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 63,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5875
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 11.5,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 40.5,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 14.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 10,
+    "sibsp": 0,
+    "parch": 2,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 30,
+    "sibsp": 1,
+    "parch": 1,
+    "fare": 24.15
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 33,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 47,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 18,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 18
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 31,
+    "sibsp": 3,
+    "parch": 0,
+    "fare": 18
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 16,
+    "sibsp": 2,
+    "parch": 0,
+    "fare": 18
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 31,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 18
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 20,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 14,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.8958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 22,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 32.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 38,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.2292
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 51,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.75
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 18,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 6.4958
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 6.4958
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 47,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 7
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.7125
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.55
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.05
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 28.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 16.1
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 21,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 8.6625
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.25
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 36,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 9.5
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 1,
+    "pclass": 3,
+    "sex": "female",
+    "age": 15,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 45.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 0,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 14.4583
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 14.5,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "female",
+    "age": 0,
+    "sibsp": 1,
+    "parch": 0,
+    "fare": 14.4542
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 26.5,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 27,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.225
+  },
+  {
+    "survived": 0,
+    "pclass": 3,
+    "sex": "male",
+    "age": 29,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 7.875
+  }
+]
