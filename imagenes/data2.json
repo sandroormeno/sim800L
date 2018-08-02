@@ -1,4 +1,4 @@
-var data =[
+[
   {
     "survived": 1,
     "pclass": 1,
